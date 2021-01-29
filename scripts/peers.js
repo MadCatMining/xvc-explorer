@@ -28,7 +28,7 @@ mongoose.connect(dbString, function(err) {
        };
      var dataString = '{"jsonrpc": "1.0", "id":"curltest", "method": "getpeerinfo"}';
      var options = {
-        url: 'http://127.0.0.1:9195/',
+        url: 'http://127.0.0.1:8740/',
         method: 'POST',
         headers: headers,
         body: dataString,
